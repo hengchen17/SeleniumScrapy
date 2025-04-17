@@ -63,5 +63,3 @@ if __name__ == "__main__":
             for name, expertise in faculty_expertise.items():
                 writer.writerow([name, expertise])
         print(f"老師專長已儲存至 {output_filename_csv}")
-    else:
-        print("無法抓取老師專長資訊。")
